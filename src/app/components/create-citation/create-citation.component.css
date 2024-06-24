@@ -1,0 +1,13 @@
+.create-citation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .create-citation img {
+    max-width: 30%;
+    height: auto;
+  }
+  

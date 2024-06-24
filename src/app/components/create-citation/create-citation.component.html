@@ -1,0 +1,16 @@
+<form (ngSubmit)="onSubmit()">
+  <div class="form-group">
+    <label for="text">Citation</label>
+    <input type="text" id="text" [(ngModel)]="citation.text" name="text" class="form-control">
+  </div>
+  <div class="form-group">
+    <label for="author">Auteur</label>
+    <input type="text" id="author" [(ngModel)]="citation.author" name="author" class="form-control">
+  </div>
+  <button type="submit" class="btn btn-primary">Ajouter une citation</button>
+</form>
+<div class="create-citation">
+  <img src="https://www.buboquote.com/images/quote_images/kierkegaard-la-vie-n-est-pas-un-probleme-a-resoudre-mais-une-realite-dont-il-faut-faire-l-experience.jpg" alt="Image 1">
+  <img src="https://citation-celebre.leparisien.fr/images/citation/citation-pierre-dac-59201.webp" alt="Image 2">
+  <img src="https://i.pinimg.com/736x/f4/04/54/f404540005a51e7c8df5630f0e607e24.jpg" alt="Image 3">
+</div>

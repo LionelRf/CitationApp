@@ -1,0 +1,9 @@
+<div class="list-group">
+  <div class="list-group-item" *ngFor="let citation of citations; let i = index">
+    <blockquote class="blockquote">
+      <p class="mb-0">{{ citation.text }}</p>
+      <footer class="blockquote-footer">{{ citation.author }}</footer>
+    </blockquote>
+    <button class="btn btn-danger btn-sm" (click)="removeCitation(i)">Delete</button>
+  </div>
+</div>
